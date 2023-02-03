@@ -1,0 +1,28 @@
+*{
+  color: white;
+  background-color: black;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: system-ui;
+  width: 500px;
+  margin: 0 auto;
+}
+img{
+  max-width: 500px;
+  height: 500px;
+}
+button{
+  margin-top: 50px;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: rgba(189, 184, 184, 0.301);
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid white;
+  transition: 0.2s;
+}

@@ -10,14 +10,14 @@ export const App = () => {
 
     return(
         <main>
-            <h1>App de gatitos</h1>
+            <h1>Kitten app</h1>
             { fact && <h3>{fact}</h3>}
             { imageUrl && <img src={imageUrl} alt={{imageUrl}} /> }
             { threeWords && <p>{ threeWords }</p>}
             <button onClick={() => {
                 refresh()
                 refreshFact()
-            }}>Reload</button>
+            }}>Get new Cat</button>
             
         </main>
     )
